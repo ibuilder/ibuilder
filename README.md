@@ -16,7 +16,7 @@
 
 [![Website](https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/dribbble.svg)](https://mattemma.blog)
 [![LinkedIn](https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/linkedin.svg)](https://linkedin.com/in/memma)
-[![Email](https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/gmail.svg)](mailto:iphoenix@gmail.com)
+[![Email](https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/messenger.svg)](mailto:iphoenix@gmail.com)
 
 </div>
 
