@@ -1,23 +1,22 @@
 <!--
-  HOW TO USE THIS FILE
-  --------------------
-  • Personal profile page  → put this in a repo named EXACTLY your username, as README.md at the root.
-  • Organization page (ibuilder) → create a repo named ".github" in the org, put this at profile/README.md
-  Replace every ⟨placeholder⟩ below. Delete any section you don't want.
+  PLACEMENT
+  • Org page (github.com/ibuilder):  create a repo named ".github" in the org → save this as profile/README.md
+  • Personal profile page:           create a repo named exactly your username → save this as README.md (root)
+  • Commit banner.svg next to this file so the <img src="banner.svg"> below resolves.
+  • "Favorite repos" = pinned repos: your profile → "Customize your pins" → pick up to 6.
 -->
 
 <div align="center">
+  <a href="https://massing.build"><img src="banner.svg" alt="Matthew Emma — Massing / ibuilder" width="100%"></a>
+</div>
 
-<!-- Optional banner: drop an image in the repo and point to it, or link it to your site like Pavlo did -->
-<!-- <a href="https://mattemma.blog"><img src="banner.png" alt="Massing / ibuilder" width="100%"></a> -->
+<div align="center">
 
-# Hi, I'm Matt Emma 👋
+**Construction operator turned commercial closer — and I ship the software too.**
 
-**Construction & real estate professional · AEC software builder**
-Building [Massing](https://massing.build) — an open-source, IFC-native platform for the built environment.
-
-<!-- Visitor badge (optional vanity counter) -->
-![visitors](https://visitor-badge.laobi.icu/badge?page_id=ibuilder.ibuilder)
+[![Website](https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/dribbble.svg)](https://mattemma.blog)
+[![LinkedIn](https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/linkedin.svg)](https://linkedin.com/in/memma)
+[![Email](https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/gmail.svg)](mailto:iphoenix@gmail.com)
 
 </div>
 
@@ -25,42 +24,58 @@ Building [Massing](https://massing.build) — an open-source, IFC-native platfor
 
 ### 🧑‍💻 About Me
 
-I'm a construction and real estate professional with 22+ years across large-scale project delivery, development management, and construction technology — currently a Project Manager at Balfour Beatty, and the person behind the **ibuilder / Massing** platform.
+I sell construction software to the people I used to be. Fifteen-plus years on jobsites and in the owner's chair — **$490M+ in project value delivered, 600+ tradespeople led** — plus a Director-of-BD track record and a founder's command of the AEC-tech stack. So buyers trust me, and demos land.
 
-I sit at the intersection of the jobsite and the codebase: I've run projects in the field and I build the software I wish the field had. My background spans real estate finance (Georgetown) and building construction (Virginia Tech), and I hold the CCIM designation along with Procore, NYC DOB Superintendent, FDNY Fire Safety Manager, and OSHA 30 credentials. Based in the Phoenix, AZ area with roots in the NY metro.
+I've **built it, sold it, and rolled it out**: founder of [Massing](https://massing.build), an open-source IFC-native AEC platform; Director of BD at BuildingConnected owning the regional go-to-market; and the person who ran the Procore rollout that unlocked **$2.5M+/month of work-in-place** on a 10-year, $200M program. Today I lead a $142M museum renovation at Balfour Beatty — living daily in the exact workflows con-tech buyers evaluate.
 
-When I'm not on a project, I'm shipping AEC tooling in Python — turning ISO 19650 workflows, 5D cost/schedule, and scan-to-BIM pipelines into things people can actually use.
+Demo-credible where it counts: Python, SQL, and REST APIs — fluent enough to talk shop with engineers and technical buyers. Based in Phoenix, AZ, with roots in the NY metro.
+
+### 🏗️ Massing — my flagship
+
+**[github.com/ibuilder/massing](https://github.com/ibuilder/massing)** · **[massing.build](https://massing.build)**
+
+A genuine in-browser BIM authoring tool + data platform spanning **acquisition → turnover on one IFC model** — no proprietary format, no per-seat license:
+
+- **BIM authoring + viewer** — model a building from a blank IFC (walls, steel, rebar, MEP), generate a permit-ready drawing set, pre-check IBC code, and hand over LOD-500 as-built data
+- **GC portal** — 78+ config-driven modules (RFIs, submittals, change-order chain, daily reports), 5D budget/schedule, Last-Planner board, AIA pay apps
+- **Development & feasibility** — zoning envelope → generated IFC building + underwriting (XIRR/NPV, JV waterfall, sensitivity), disposition & appraisal
+- **Standards & ops** — ISO 19650 CDE, Discipline Spine, Facility Condition Assessment, resilience modeling, and an **MCP server** so agents can drive the project
+
+> Stack: Vite · Three.js · IfcOpenShell on the web; FastAPI · Postgres · MinIO on the API.
 
 ### 🛠️ Languages & Tools
 
-<!-- Auto-renders tech icons. Edit the ?i= list at the end. -->
-[![My Skills](https://skillicons.dev/icons?i=python,flask,postgres,sqlite,js,html,git,github,docker,linux,vscode,aws)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=python,fastapi,flask,postgres,sqlite,threejs,js,vite,docker,git,github,linux)](https://skillicons.dev)
 
-### 🚀 Featured Work
+**Con-tech:** Procore · BuildingConnected · Autodesk Navisworks
+**Certifications:** Procore (Associate · Superintendent · Developer) · OSHA 30 · NYC DOB Construction Superintendent · FDNY Fire Safety Manager
+**Affiliations:** NAIOP · REBNY · CCIM
 
-- **[Massing](https://massing.build)** — open-source, IFC-native AEC platform spanning acquisition through operations. 78+ GC portal modules, 5D cost/schedule, ISO 19650 CDE, Last Planner board, and an MCP server. `massing.build` (OSS) · `massing.cloud` (SaaS)
-- **massing-capture** — photogrammetry / scan-to-BIM pipeline (COLMAP, 3D Gaussian Splatting, IfcOpenShell) turning point clouds and Matterport data into live digital twins
-- **FieldForge** — pay-per-use construction workflow tools for mid-size general contractors
-- **⟨Real-estate tokenization platform⟩** — cap-table-first infrastructure for tokenized real estate
+### 🏛️ Signature Projects
 
-> 💡 To make these show as the "Popular repositories" row on your page, **pin** them: go to your profile → **Customize your pins** → select up to 6 repos.
+- **Massing** — founder; open-source, IFC-native AEC platform
+- **Madison Square Garden Transformation** — BIM/MEP coordination, 200+ union trades/day
+- **Amazon HQ** — 850K SF core & shell TCO turnover (WeWork)
+- **830 Brickell** — 130K SF six-floor fit-out preconstruction (Miami)
+- **NC Museum of History** — $142M renovation & expansion (Balfour Beatty JV)
+
+### 🎓 Education
+
+**Georgetown University** — M.S., Real Estate Finance (2021)
+**Virginia Tech** — B.S., Building Construction (2009)
 
 ### 🌐 Let's Connect
 
-[![Website](https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/dribbble.svg)](https://mattemma.blog)
-[![LinkedIn](https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/linkedin.svg)](⟨https://www.linkedin.com/in/your-handle⟩)
-[![Email](https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/gmail.svg)](mailto:⟨you@example.com⟩)
-
-- 🌍 Blog / site: **[mattemma.blog](https://mattemma.blog)**
-- 💼 LinkedIn: ⟨add your URL⟩
-- 🏗️ Project: **[massing.build](https://massing.build)**
+- 🌍 **[mattemma.blog](https://mattemma.blog)**
+- 💼 **[linkedin.com/in/memma](https://linkedin.com/in/memma)**
+- 🏗️ **[massing.build](https://massing.build)** · [github.com/ibuilder/massing](https://github.com/ibuilder/massing)
+- ✉️ iphoenix@gmail.com
 
 ---
 
-<!-- Optional: live GitHub stats. Replace the username in each URL. -->
 <div align="center">
 
-![Stats](https://github-readme-stats.vercel.app/api?username=⟨your-username⟩&show_icons=true&hide_border=true)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=⟨your-username⟩&layout=compact&hide_border=true)
+![Stats](https://github-readme-stats.vercel.app/api?username=ibuilder&show_icons=true&hide_border=true&title_color=0ea5e9&icon_color=f59e0b)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ibuilder&layout=compact&hide_border=true&title_color=0ea5e9)
 
 </div>
