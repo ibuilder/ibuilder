@@ -1,44 +1,45 @@
 <!--
   LIVE AT: github.com/ibuilder/ibuilder  (branch: master)
-  Commit banner.svg alongside this file. "Favorite repos" = pinned repos:
-  profile → "Customize your pins" → pick massing, master-builder, osprey (+3 more).
+  Commit banner.svg alongside this file (or in assets/ and update the src below).
+  Do NOT use the S3/presigned image URL — it expires. Commit the file.
+  "Favorite repos" = pinned repos: profile → "Customize your pins".
 -->
 
 <div align="center">
-  <a href="https://massing.build"><img src="banner.svg" alt="Matthew Emma — building the whole arc, land to operations" width="100%"></a>
-</div>
+  <a href="https://massing.build"><img src="banner.svg" alt="Matthew Emma — future systems for the built world" width="100%"></a>
 
-<div align="center">
-
-**Construction operator turned commercial closer — and I ship the software too.**
-
-[![Website](https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/dribbble.svg)](https://mattemma.blog)
-[![LinkedIn](https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/linkedin.svg)](https://linkedin.com/in/memma)
-[![X](https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/twitter.svg)](https://twitter.com/ibuilder)
-[![Email](https://raw.githubusercontent.com/CLorant/readme-social-icons/main/large/filled/gmail.svg)](mailto:iphoenix@gmail.com)
-
+  <p>
+    <a href="https://mattemma.blog">Website</a> ·
+    <a href="https://linkedin.com/in/memma">LinkedIn</a> ·
+    <a href="https://twitter.com/ibuilder">X</a> ·
+    <a href="mailto:iphoenix@gmail.com">Email</a>
+  </p>
 </div>
 
 ---
 
-### 🧑‍💻 About Me
+## Future systems for the built world
 
-I sell construction software to the people I used to be. Fifteen-plus years on jobsites and in the owner's chair — **$490M+ in project value delivered, 600+ tradespeople led** — plus a Director-of-BD track record and a founder's command of the AEC-tech stack. So buyers trust me, and demos land.
+I build software for the exact workflows I have lived in — development, design coordination, construction execution, handover, and operations. The through-line is simple: **a project should not fracture across disconnected tools when the asset itself is one continuous system.**
 
-I've **built it, sold it, and rolled it out**: founder of [Massing](https://massing.build), an open-source IFC-native AEC platform; Director of BD at BuildingConnected owning the regional go-to-market; and the person who ran the Procore rollout that unlocked **$2.5M+/month of work-in-place** on a 10-year, $200M program. Today I lead a $142M museum renovation at Balfour Beatty — living daily in the exact workflows con-tech buyers evaluate.
+```text
+site → geometry → scope → schedule → cost → build → handover → operations
+```
 
-Demo-credible where it counts: Python, SQL, and REST APIs — fluent enough to talk shop with engineers and technical buyers. Based in Phoenix, AZ, with roots in the NY metro.
+That view comes from both sides of the table. Fifteen-plus years leading construction in the field — **$490M+ delivered, 600+ tradespeople led** — a Director-of-BD track record selling con-tech to sophisticated buyers, and a Procore rollout that unlocked **$2.5M+/month of work-in-place** on a $200M program. So I can talk shop with a super, a CFO, or a staff engineer, and build the product deeply enough to back it up.
+
+I build software for the people I used to be.
 
 ---
 
-## 🏗️ What I'm Building
+## What I'm building
 
-Three open-source projects, one thesis: **a project is one continuous arc — land, design, build, handover, operations — and the tools should hold all of it.** One models it, one reasons about it, one watches it.
+Three open-source projects, one thesis: the project is a single continuous system. **One models it, one reasons about it, one watches it.**
 
 ### 🧊 [Massing](https://github.com/ibuilder/massing) — model it
-[![Stars](https://img.shields.io/github/stars/ibuilder/massing?style=flat-square&color=0ea5e9)](https://github.com/ibuilder/massing/stargazers) [![License](https://img.shields.io/github/license/ibuilder/massing?style=flat-square&color=0ea5e9)](https://github.com/ibuilder/massing/blob/main/LICENSE) · **[massing.build](https://massing.build)**
+[![Stars](https://img.shields.io/github/stars/ibuilder/massing?style=flat-square&color=2dd4bf&labelColor=0a1016)](https://github.com/ibuilder/massing/stargazers) [![License](https://img.shields.io/github/license/ibuilder/massing?style=flat-square&color=2dd4bf&labelColor=0a1016)](https://github.com/ibuilder/massing/blob/main/LICENSE) · **[massing.build](https://massing.build)**
 
-Open, self-hosted, **IFC-native** AEC platform — the whole lifecycle on a single model, with no proprietary format and no per-seat license.
+Open, self-hosted, **IFC-native** AEC platform — the whole lifecycle on a single model, no proprietary format and no per-seat license.
 
 - **BIM authoring + viewer** — model from a blank IFC (walls, steel, rebar, MEP), generate a permit-ready construction-document set, pre-check IBC code, hand over LOD-500 as-built data
 - **GC portal** — ~100 config-driven modules: RFIs, submittals, change-order chain, AIA pay apps, CPM, and construction accounting (double-entry GL/WIP → QuickBooks, e-sign)
@@ -48,36 +49,38 @@ Open, self-hosted, **IFC-native** AEC platform — the whole lifecycle on a sing
 > `Vite · Three.js · IfcOpenShell` on the web · `FastAPI · Postgres · MinIO` on the API · free offline desktop build
 
 ### 📐 [Master Builder](https://github.com/ibuilder/master-builder) — reason about it
-![Version](https://img.shields.io/badge/version-0.2.0-f59e0b?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-f59e0b?style=flat-square)
+![Version](https://img.shields.io/badge/version-0.2.0-2dd4bf?style=flat-square&labelColor=0a1016) ![License](https://img.shields.io/badge/license-MIT-2dd4bf?style=flat-square&labelColor=0a1016)
 
-An installable **Claude Skill** that makes an AI reason like a master builder — one mind holding an entire built-asset project from raw land through design, construction, handover, operations, and disposition, **anywhere in the world**.
+An installable **Claude Skill** that makes an AI reason like a master builder instead of a generic assistant — one mind holding an entire built-asset project from raw land through design, construction, handover, operations, and disposition, **anywhere in the world.**
 
 The core rule: there is no generic building. Ground every answer in a real place, derive the constraints from there, and follow the money and the risk to their conclusions. A lean `SKILL.md` plus seven reference modules — global codes and AHJs, the development lifecycle, real-estate finance, construction delivery, the digital toolkit, a build doctrine distilled from real platforms, and a forensic pro-forma review.
 
 > Distilled from 22+ years of practice. Standards verified against current editions — IBC 2024 / ASCE 7-22, Eurocodes, NCC 2025, ISO 19650 + IFC, LEED v5.
 
 ### 🦅 [Osprey](https://github.com/ospreyhq) — watch it
-![Status](https://img.shields.io/badge/status-in%20development-FF6A2B?style=flat-square) ![Open Source](https://img.shields.io/badge/open%20source-free-FF6A2B?style=flat-square)
+![Status](https://img.shields.io/badge/status-in%20development-f59e0b?style=flat-square&labelColor=0a1016) ![Open Source](https://img.shields.io/badge/open%20source-free-f59e0b?style=flat-square&labelColor=0a1016)
 
-A free, open-source, cross-platform **background agent** for the built environment. It runs quietly, connects to the systems a project already lives in, analyzes what's moving, and produces a prioritized **hotlist** — what actually needs attention today.
+A free, open-source, cross-platform **background agent** for the built environment. It runs quietly, connects to the systems a project already lives in, analyzes what's moving, and surfaces a prioritized **hotlist** — what actually needs attention today.
 
 - **Connectors** — Outlook / O365, Gmail, Procore, Sage, Argus and similar AEC/RE platforms
 - **Output** — a ranked hotlist, exportable to Excel and PDF
 - **Runs everywhere** — Windows, macOS, iOS, Android; self-hostable, enterprise-grade security
 
-> Born from a simple observation: the signal that a project is in trouble is almost always already sitting in someone's inbox.
+> The signal that a project is in trouble is almost always already sitting in someone's inbox. Osprey surfaces it in time.
+
+<sub>**Also in the workshop:** ProcoreWP (a Procore-to-web layer for publishing project data outside the closed system boundary) · Atlas (a systems-map for navigating how geometry, workflows, and project intelligence connect).</sub>
 
 ---
 
-### 🛠️ Languages & Tools
+### 🛠️ Stack
 
-[![My Skills](https://skillicons.dev/icons?i=python,fastapi,flask,postgres,sqlite,threejs,js,ts,vite,rust,docker,git,github,linux)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=python,fastapi,flask,postgres,sqlite,threejs,ts,js,vite,rust,docker,git,github,linux)](https://skillicons.dev)
 
 **Con-tech:** Procore · BuildingConnected · Autodesk Navisworks · Primavera P6
 **Certifications:** Procore (Associate · Superintendent · Developer) · OSHA 30 · NYC DOB Construction Superintendent · FDNY Fire Safety Manager
 **Affiliations:** NAIOP · REBNY · CCIM
 
-### 🏛️ Signature Projects
+### 🏛️ Signature work
 
 - **Madison Square Garden Transformation** — BIM/MEP coordination, 200+ union trades/day
 - **Amazon HQ** — 850K SF core & shell TCO turnover (WeWork)
@@ -90,18 +93,17 @@ A free, open-source, cross-platform **background agent** for the built environme
 **Georgetown University** — M.S., Real Estate Finance (2021)
 **Virginia Tech** — B.S., Building Construction (2009)
 
-### 🌐 Let's Connect
+---
 
-- 🌍 **[mattemma.blog](https://mattemma.blog)**
-- 💼 **[linkedin.com/in/memma](https://linkedin.com/in/memma)**
-- 🏗️ **[massing.build](https://massing.build)**
-- ✉️ iphoenix@gmail.com
+## Philosophy
+
+The built environment runs on fragmented software designed around narrow handoffs. I'm interested in products that collapse those handoffs, keep the model and the money connected, and make the workflow legible to both humans and machines — open formats, explicit data models, and software that respects how projects actually get delivered.
 
 ---
 
 <div align="center">
 
-![Stats](https://github-readme-stats.vercel.app/api?username=ibuilder&show_icons=true&hide_border=true&title_color=0ea5e9&icon_color=f59e0b)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ibuilder&layout=compact&hide_border=true&title_color=0ea5e9)
+![Stats](https://github-readme-stats.vercel.app/api?username=ibuilder&show_icons=true&hide_border=true&title_color=2dd4bf&icon_color=f59e0b&text_color=c9d1d9&bg_color=00000000)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=ibuilder&layout=compact&hide_border=true&title_color=2dd4bf&text_color=c9d1d9&bg_color=00000000)
 
 </div>
