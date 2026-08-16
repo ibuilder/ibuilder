@@ -1,0 +1,177 @@
+<svg viewBox="0 0 1200 380" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070c12"/><stop offset="1" stop-color="#04070b"/>
+    </linearGradient>
+    <radialGradient id="cityglow" cx="0.56" cy="0.85" r="0.5">
+      <stop offset="0" stop-color="#2dd4bf" stop-opacity="0.20"/>
+      <stop offset="1" stop-color="#2dd4bf" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="skyClip"><rect x="470" y="40" width="430" height="278"/></clipPath>
+    <style>
+      .mono{font-family:'JetBrains Mono','Consolas',monospace;}
+      .sans{font-family:'Segoe UI',Helvetica,Arial,sans-serif;}
+      .tw{fill:none;stroke:#2dd4bf;stroke-width:1;stroke-opacity:0.85;}
+      .twf{fill:#2dd4bf;fill-opacity:0.05;}
+      .flr{stroke:#2dd4bf;stroke-width:0.6;stroke-opacity:0.35;}
+    </style>
+  </defs>
+
+  <rect width="1200" height="380" fill="url(#bg)"/>
+  <rect width="1200" height="380" fill="url(#cityglow)"/>
+
+  <!-- corner brackets -->
+  <g stroke="#2dd4bf" stroke-width="1.4" fill="none" stroke-opacity="0.8">
+    <path d="M20,20 h40 M20,20 v40"/>
+    <path d="M1180,20 h-40 M1180,20 v40"/>
+    <path d="M20,360 h40 M20,360 v-40"/>
+    <path d="M1180,360 h-40 M1180,360 v-40"/>
+  </g>
+  <!-- edge ticks + faint ruler numbers -->
+  <g stroke="#2dd4bf" stroke-opacity="0.35" stroke-width="1">
+    <line x1="360" y1="20" x2="360" y2="30"/><line x1="600" y1="20" x2="600" y2="34"/>
+    <line x1="840" y1="20" x2="840" y2="30"/>
+    <line x1="600" y1="360" x2="600" y2="346"/>
+  </g>
+  <g class="mono" fill="#2dd4bf" fill-opacity="0.4" font-size="9" letter-spacing="1">
+    <text x="592" y="16">270</text><text x="352" y="16">360</text><text x="832" y="16">180</text>
+  </g>
+
+  <!-- ================= IDENTITY (top-left) ================= -->
+  <text class="mono" x="44" y="50" fill="#2dd4bf" font-size="11" letter-spacing="2">SYS: AEC-CORE</text>
+  <text class="mono" x="168" y="50" fill="#3f5b60" font-size="9" letter-spacing="1">v3.7.2</text>
+
+  <text class="sans" x="42" y="108" fill="#e8faf6" font-size="46" font-weight="700" letter-spacing="0.5" opacity="0">
+    MATTHEW EMMA
+    <animate attributeName="opacity" from="0" to="1" begin="0.5s" dur="0.7s" fill="freeze"/>
+    <animateTransform attributeName="transform" type="translate" values="14 0;0 0"
+      calcMode="spline" keySplines="0.2 0.8 0.2 1" begin="0.5s" dur="0.7s" fill="freeze"/>
+  </text>
+
+  <text class="mono" x="46" y="138" fill="#5eead4" font-size="14" letter-spacing="3" opacity="0">
+    FOUNDER · BUILDER · SYSTEMS THINKER
+    <animate attributeName="opacity" from="0" to="1" begin="0.85s" dur="0.6s" fill="freeze"/>
+  </text>
+  <text class="mono" x="46" y="160" fill="#5b7d82" font-size="12" letter-spacing="2.5" opacity="0">
+    DESIGN · ENGINEER · AUTOMATE · SHIP
+    <animate attributeName="opacity" from="0" to="1" begin="1.0s" dur="0.6s" fill="freeze"/>
+  </text>
+
+  <!-- left nav -->
+  <g class="mono" font-size="10" letter-spacing="1.5" opacity="0">
+    <animate attributeName="opacity" from="0" to="1" begin="1.15s" dur="0.6s" fill="freeze"/>
+    <g fill="#5b7d82">
+      <rect x="46" y="204" width="7" height="7" fill="none" stroke="#2dd4bf" stroke-opacity="0.6"/><text x="62" y="211">ARCH</text>
+      <rect x="46" y="228" width="7" height="7" fill="none" stroke="#2dd4bf" stroke-opacity="0.6"/><text x="62" y="235">STR</text>
+      <rect x="46" y="252" width="7" height="7" fill="none" stroke="#2dd4bf" stroke-opacity="0.6"/><text x="62" y="259">MEP</text>
+      <rect x="46" y="276" width="7" height="7" fill="none" stroke="#2dd4bf" stroke-opacity="0.6"/><text x="62" y="283">CIV</text>
+      <rect x="46" y="300" width="7" height="7" fill="none" stroke="#2dd4bf" stroke-opacity="0.6"/><text x="62" y="307">DATA</text>
+      <rect x="46" y="324" width="7" height="7" fill="none" stroke="#2dd4bf" stroke-opacity="0.6"/><text x="62" y="331">OPS</text>
+    </g>
+  </g>
+
+  <!-- ================= WIREFRAME SKYLINE ================= -->
+  <g clip-path="url(#skyClip)">
+    <!-- ground grid -->
+    <g stroke="#2dd4bf" stroke-opacity="0.18" stroke-width="0.7">
+      <line x1="470" y1="316" x2="900" y2="316"/>
+      <line x1="500" y1="300" x2="880" y2="300"/>
+      <line x1="540" y1="286" x2="860" y2="286"/>
+    </g>
+
+    <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="0.7s" dur="0.9s" fill="freeze"/>
+      <!-- T1 -->
+      <rect class="tw twf" x="496" y="206" width="46" height="110"/>
+      <polygon class="tw" points="496,206 542,206 559,194 513,194"/>
+      <polygon class="tw" points="542,316 542,206 559,194 559,304"/>
+      <line class="flr" x1="496" y1="270" x2="542" y2="270"/><line class="flr" x1="496" y1="240" x2="542" y2="240"/>
+      <!-- T2 -->
+      <rect class="tw twf" x="556" y="120" width="40" height="196"/>
+      <polygon class="tw" points="556,120 596,120 611,109 571,109"/>
+      <polygon class="tw" points="596,316 596,120 611,109 611,305"/>
+      <line class="flr" x1="556" y1="270" x2="596" y2="270"/><line class="flr" x1="556" y1="224" x2="596" y2="224"/><line class="flr" x1="556" y1="178" x2="596" y2="178"/>
+      <!-- T3 -->
+      <rect class="tw twf" x="610" y="166" width="44" height="150"/>
+      <polygon class="tw" points="610,166 654,166 671,154 627,154"/>
+      <polygon class="tw" points="654,316 654,166 671,154 671,304"/>
+      <line class="flr" x1="610" y1="270" x2="654" y2="270"/><line class="flr" x1="610" y1="224" x2="654" y2="224"/>
+      <!-- T4 hero (amber) -->
+      <g>
+        <rect x="668" y="76" width="52" height="240" fill="#f59e0b" fill-opacity="0.06" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.85"/>
+        <polygon fill="none" stroke="#f59e0b" stroke-opacity="0.85" points="668,76 720,76 740,62 688,62"/>
+        <polygon fill="none" stroke="#f59e0b" stroke-opacity="0.85" points="720,316 720,76 740,62 740,302"/>
+        <g stroke="#f59e0b" stroke-width="0.6" stroke-opacity="0.4">
+          <line x1="668" y1="270" x2="720" y2="270"/><line x1="668" y1="224" x2="720" y2="224"/>
+          <line x1="668" y1="178" x2="720" y2="178"/><line x1="668" y1="132" x2="720" y2="132"/>
+        </g>
+      </g>
+      <!-- T5 -->
+      <rect class="tw twf" x="736" y="146" width="44" height="170"/>
+      <polygon class="tw" points="736,146 780,146 797,134 753,134"/>
+      <polygon class="tw" points="780,316 780,146 797,134 797,304"/>
+      <line class="flr" x1="736" y1="270" x2="780" y2="270"/><line class="flr" x1="736" y1="220" x2="780" y2="220"/>
+      <!-- T6 -->
+      <rect class="tw twf" x="794" y="188" width="56" height="128"/>
+      <polygon class="tw" points="794,188 850,188 871,173 815,173"/>
+      <polygon class="tw" points="850,316 850,188 871,173 871,301"/>
+      <line class="flr" x1="794" y1="264" x2="850" y2="264"/><line class="flr" x1="794" y1="226" x2="850" y2="226"/>
+    </g>
+
+    <!-- blinking nodes -->
+    <g>
+      <circle cx="576" cy="150" r="2.6" fill="#5eead4"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.4s" begin="1.8s" repeatCount="indefinite"/></circle>
+      <circle cx="694" cy="120" r="2.8" fill="#fbbf24"><animate attributeName="opacity" values="0.25;1;0.25" dur="2.8s" begin="2.1s" repeatCount="indefinite"/></circle>
+      <circle cx="758" cy="180" r="2.6" fill="#5eead4"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.6s" begin="2.4s" repeatCount="indefinite"/></circle>
+      <circle cx="632" cy="200" r="2.4" fill="#5eead4"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.2s" begin="2.0s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- scan sweep -->
+    <line x1="470" y1="316" x2="900" y2="316" stroke="#7cf9e6" stroke-width="1.4" stroke-opacity="0.55">
+      <animate attributeName="y1" values="316;60;316" dur="5s" begin="2s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+      <animate attributeName="y2" values="316;60;316" dur="5s" begin="2s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+      <animate attributeName="stroke-opacity" values="0;0.55;0" dur="5s" begin="2s" repeatCount="indefinite" keyTimes="0;0.5;1"/>
+    </line>
+  </g>
+
+  <!-- ================= SYSTEM OVERVIEW panel (top-right) ================= -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.3s" dur="0.6s" fill="freeze"/>
+    <rect x="912" y="34" width="252" height="122" fill="#0a1016" fill-opacity="0.7" stroke="#2dd4bf" stroke-opacity="0.45" stroke-width="1"/>
+    <line x1="912" y1="58" x2="1164" y2="58" stroke="#2dd4bf" stroke-opacity="0.25"/>
+    <text class="mono" x="926" y="52" fill="#5eead4" font-size="11" letter-spacing="2">SYSTEM OVERVIEW</text>
+
+    <!-- row: MASSING -->
+    <text class="mono" x="926" y="82" fill="#9fdcd3" font-size="10" letter-spacing="1">MASSING</text>
+    <rect x="1040" y="76" width="78" height="5" rx="2.5" fill="#12333a"/>
+    <rect x="1040" y="76" width="0" height="5" rx="2.5" fill="#2dd4bf"><animate attributeName="width" from="0" to="70" begin="1.6s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
+    <circle cx="1128" cy="78.5" r="3" fill="#2dd4bf"><animate attributeName="opacity" values="1;0.4;1" dur="2s" begin="2.5s" repeatCount="indefinite"/></circle>
+    <text class="mono" x="1138" y="82" fill="#2dd4bf" font-size="9" letter-spacing="1">ONLINE</text>
+
+    <!-- row: MASTER BUILDER -->
+    <text class="mono" x="926" y="106" fill="#9fdcd3" font-size="10" letter-spacing="1">MASTER BUILDER</text>
+    <rect x="1040" y="100" width="78" height="5" rx="2.5" fill="#12333a"/>
+    <rect x="1040" y="100" width="0" height="5" rx="2.5" fill="#2dd4bf"><animate attributeName="width" from="0" to="58" begin="1.75s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
+    <circle cx="1128" cy="102.5" r="3" fill="#2dd4bf"><animate attributeName="opacity" values="1;0.4;1" dur="2s" begin="2.7s" repeatCount="indefinite"/></circle>
+    <text class="mono" x="1138" y="106" fill="#2dd4bf" font-size="9" letter-spacing="1">ONLINE</text>
+
+    <!-- row: OSPREY -->
+    <text class="mono" x="926" y="130" fill="#9fdcd3" font-size="10" letter-spacing="1">OSPREY</text>
+    <rect x="1040" y="124" width="78" height="5" rx="2.5" fill="#3a2a12"/>
+    <rect x="1040" y="124" width="0" height="5" rx="2.5" fill="#f59e0b"><animate attributeName="width" from="0" to="30" begin="1.9s" dur="0.9s" fill="freeze" calcMode="spline" keySplines="0.2 0.8 0.2 1" keyTimes="0;1"/></rect>
+    <circle cx="1128" cy="126.5" r="3" fill="#f59e0b"><animate attributeName="opacity" values="1;0.3;1" dur="1.4s" begin="2.9s" repeatCount="indefinite"/></circle>
+    <text class="mono" x="1138" y="130" fill="#f59e0b" font-size="9" letter-spacing="1">IN DEV</text>
+  </g>
+
+  <!-- ================= LIFECYCLE PIPELINE (bottom) ================= -->
+  <g opacity="0"><animate attributeName="opacity" from="0" to="1" begin="1.5s" dur="0.7s" fill="freeze"/>
+    <line x1="70" y1="348" x2="1134" y2="348" stroke="#2dd4bf" stroke-opacity="0.3" stroke-width="1"/>
+    <g class="mono" font-size="9" letter-spacing="1" fill="#5b7d82" text-anchor="middle">
+      <g fill="#2dd4bf"><circle cx="70" cy="348" r="3"/><circle cx="222" cy="348" r="3"/><circle cx="374" cy="348" r="3"/><circle cx="526" cy="348" r="3"/><circle cx="678" cy="348" r="3"/><circle cx="830" cy="348" r="3"/><circle cx="982" cy="348" r="3"/><circle cx="1134" cy="348" r="3"/></g>
+      <text x="70" y="366">SITE</text><text x="222" y="366">GEOMETRY</text><text x="374" y="366">SCOPE</text><text x="526" y="366">SCHEDULE</text>
+      <text x="678" y="366">COST</text><text x="830" y="366">BUILD</text><text x="982" y="366">HANDOVER</text><text x="1134" y="366">OPS</text>
+    </g>
+    <circle cx="70" cy="348" r="4.5" fill="#7cf9e6">
+      <animate attributeName="cx" values="70;1134" dur="4.5s" begin="2.4s" repeatCount="indefinite" calcMode="spline" keySplines="0.4 0 0.6 1" keyTimes="0;1"/>
+      <animate attributeName="opacity" values="0;1;1;0" dur="4.5s" begin="2.4s" repeatCount="indefinite" keyTimes="0;0.05;0.9;1"/>
+    </circle>
+  </g>
+</svg>
